@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="x_04_Xamarin.x_04_Xamarin">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="27" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme" android:name="android.app.Application" android:debuggable="true">
+    <activity android:label="InsertMessageScreen" android:name="md5d694f971124fbfe62f1265a93ab82cfe.InsertMessageScreen" />
+    <activity android:label="ListViewScreen" android:name="md5d694f971124fbfe62f1265a93ab82cfe.ListViewScreen" />
+    <activity android:label="ListView_2_Screen" android:name="md5d694f971124fbfe62f1265a93ab82cfe.ListView_2_Screen" />
+    <activity android:label="ListView_3_Screen" android:name="md5d694f971124fbfe62f1265a93ab82cfe.ListMessageScreen" />
+    <activity android:label="ChangePassWordScreen" android:name="md5d694f971124fbfe62f1265a93ab82cfe.ModifyPassWordScreen" />
+    <activity android:label="HomeScreen" android:name="md5d694f971124fbfe62f1265a93ab82cfe.HomeScreen" />
+    <activity android:label="FirstScreen" android:name="md5d694f971124fbfe62f1265a93ab82cfe.LoginScreen">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:name="md5d694f971124fbfe62f1265a93ab82cfe.MainActivity" />
+    <activity android:label="MyPostScreen" android:name="md5d694f971124fbfe62f1265a93ab82cfe.MyPostScreen" />
+    <activity android:label="SecondScreen" android:name="md5d694f971124fbfe62f1265a93ab82cfe.RegisterScreen" />
+    <activity android:label="ShowLinkManScreen" android:name="md5d694f971124fbfe62f1265a93ab82cfe.ShowLinkManScreen" />
+    <activity android:label="ShowMessageScreen" android:name="md5d694f971124fbfe62f1265a93ab82cfe.ShowMessageScreen" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="x_04_Xamarin.x_04_Xamarin.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.x_04_Xamarin.x_04_Xamarin" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

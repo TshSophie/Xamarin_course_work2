@@ -1,0 +1,2 @@
+android.app.Application
+x_04_Xamarin.x_04_Xamarin

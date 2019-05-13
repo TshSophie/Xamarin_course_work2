@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<TextView
+		android:text="Large Text"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/title" />
+	<ImageView
+		android:src="@android:drawable/ic_menu_gallery"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/image"
+		android:maxWidth="150px"
+		android:minWidth="150px"
+		android:maxHeight="150px"
+		android:minHeight="150px"
+		android:layout_gravity="center_vertical|center" />
+	<TextView
+		android:text="From:"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/from" />
+	<TextView
+		android:text="Text"
+		android:layout_width="match_parent"
+		android:layout_height="211.0dp"
+		android:id="@+id/detail" />
+	
+	<Button
+		android:text="Bid"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/button1" />
+
+</LinearLayout>
